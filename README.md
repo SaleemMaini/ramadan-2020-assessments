@@ -8,7 +8,8 @@ In this repo you will find some given express server configured to make some bas
 
 ## Assessment 1 (Junior level friendly)
 
-1. After cloning the repo and installing the dependencies in the server folder, you should next [setup mongodb](https://docs.mongodb.com/manual/installation/) locally and copy the connection url to the required place in `server/models/mongo.config.js`.
+1. After cloning the repo. and installing the dependencies in the server folder, you should next [setup mongodb](https://docs.mongodb.com/manual/installation/) locally and copy the connection url to the required place in `server/models/mongo.config.js`.
+
 2. Navigate to server directory, run `npm install` then run `npm start` in the server folder (btw, cors are enabled so you can run server if you want on a separate port).
 3. Implement the frontend code to make it work with the following functionalities:
    - [ ] Submit a video request. (API: POST -> `/video-request`)
